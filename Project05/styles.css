@@ -1,0 +1,51 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+
+}
+
+html,body{
+	line-height: 1.4;
+	font-weight: 300;
+	font-family: 'Roboto',sans-serif;
+}
+
+
+nav{
+	box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+	position: sticky;
+	top: 0;
+	margin-bottom: 32px;
+	background: white;
+	padding: 10px;
+}
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.bar_icons{
+	font-size: 30px;
+}
+
+/* Hero section */
+
+.hero{
+	display: flex;
+	gap: 100px;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero_contant {
+	display: flex;
+	flex-direction: column;
+}
